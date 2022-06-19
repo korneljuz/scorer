@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.scorer-root {
+    background-color: rgb(42, 46, 56);
+    min-height: 100vh;
+    min-width: 100vw;
+    padding: 1rem 1rem;
+    color: #FFFFFF;
+    font-family: 'Roboto Mono', monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    flex-direction: column;
+    max-width: 100vh;
+}
+
+.scorer-root p {
+    margin: 0;
+}
+
+.scorer-app {
+    min-height: 70vh;
+    background-color: transparent;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 1rem;
+    align-items: center;
+    padding: 1.5rem 0;
+    width: 50%;
+}
+
+.mission-card {
+    width: 100%;
+    height: 4rem;
+    background-color: #e6e6e6;
+    margin: 1rem;
+    border-radius: 0.5rem;
+    text-align: start;
+    display: flex;
+    align-items: center;
+    padding: 0.7rem;
+    color:rgba(0, 0, 0, 0.5);
+    flex-direction: column;
+}
+
+.mission-card p {
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-size: 0.5rem;
+}
+
+.mission-card-header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+    font-size: 1rem;
+}
+
+.mission {
+    width: 20rem;
+    color:rgba(0, 0, 0, 0.5);
+    font-size: 0.7rem;
+    text-align: start;
+}
+
+.mission-text {
+    margin-bottom: 2rem;
+}
